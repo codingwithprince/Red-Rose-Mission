@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Alatsi', sans-serif;
+}
+body{
+  background-color: #bb1404;
+  color: #ddd;
+}
+h1{
+    font-size: 6vw;
+    color: #ddd;
+    text-shadow: 2px 2px 30px rgba(0,0,0,0.7);
+    margin-bottom: 20px;
+}
+h2{
+    font-size: 3vw;
+}
+h2.greentext{
+    color: #05be5c;
+    text-shadow: 2px 2px 30px rgba(0,0,0,0.7);
+}
+h3{
+    font-size: 4vw;
+    margin: 50px 50px;
+}
+h4{
+    font-size: 1.9rem;
+    padding: 10px 0;
+    color: #05be5c;
+}
+p{
+    font-size: 1.3rem;
+}
+header{
+    width: 100%;
+    height: 60vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/cover.jpg);
+    background-size: cover;
+}
+.navbar-brand img{
+    margin-top: 20px;
+    height: 70px;
+    width: 70px;
+}
+ul .nav-item{
+    display: block;
+    padding: 0 20px;
+    margin: 3px;
+    color: #000;
+    border: 1px solid #ddd;
+    justify-content: space-around;
+}
+.navbar-toggler-icon img{
+    height: 50px;
+    width: 50px;
+    margin-top: 0;
+    opacity: 80%;
+}
+ul .nav-item a{
+    color: #fff;
+    text-transform: uppercase;
+   
+}
+ul .nav-item:hover{
+    background-color: #fff;
+}
+ul .nav-item a:hover{
+    color: #000;
+transition: 0.5s;
+}
+
+div.container .main-text{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.buttonone{
+    margin: 5px 5px;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;
+    border: 2px solid #05be5c;
+    background-color: #05be5c;
+    border-radius: 5px 5px;
+    text-shadow: 2px 2px 30px rgba(0,0,0,0.7);
+}
+.buttonone:hover{
+    background-color: #fff;
+    color: #333;
+    text-decoration: none;
+    border: 2px solid transparent;
+}
+.buttontwo{
+    margin: 5px 5px;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #fff;
+    border: 2px solid #05be5c;
+    border-radius: 5px 5px;
+    text-shadow: 2px 2px 30px rgba(0,0,0,0.7);
+}
+.buttontwo:hover{
+    text-decoration: none;
+    background-color: #05be5c;
+    color: #333;
+}
+.buttonone:hover span {
+    display:none
+  }
+.buttonone:hover:before {
+    content:"01316056211";
+    font-weight: bold;
+  }
+/* -------about section--------- */
+.about{
+    height: 90vh;
+    width: auto;
+    margin-top: 70px;
+    margin: 0 5%;
+}
+.about-body{
+    padding-top: 20px;
+}
+.col-md-6 img{
+    height: auto;
+    width: 100%;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.7);
+} 
+#more {display: none;}
+button.read-more-btn{
+    padding: 2px 5px;
+    background-color: #05be5c;
+    color: #333;
+    border:none;
+    border-radius: 5px 5px;
+    font-style: italic;
+}

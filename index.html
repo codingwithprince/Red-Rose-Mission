@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css" type="text/css">
+  <link rel="stylesheet" href="css/responsive.css" type="text/css">
+  <title>Red Rose Mission</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="navbar navbar-expand-lg">
+        <a href="#" class="navbar-brand">
+          <img src="images/logo.png" class="img">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynav">
+          <span class="navbar-toggler-icon">
+            <img src="https://img.icons8.com/dotty/80/ffffff/menu.png" alt="">
+          </span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">services</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Members</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="main-text">
+        <h2 class="greentext">Wecome To Our</h2>
+        <h1 class="text-white">Red Rose Mission</h1>
+        <a href="#" class="buttonone"><span>Contact Us</span> <img class="text-center" src="https://img.icons8.com/dotty/80/000000/phone-disconnected.png" height="20px" width="20px"/></a>
+        <a href="#" class="buttontwo">Join Us</a>
+      </div>
+    </div>
+  </header>
+  <section class="about">
+    <div class="containers about-body">
+      <h3 class="text-center">About Us</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images/groupphoto.jpg" alt="">
+        </div>
+        <div class="col-md-6" class="right-text">
+          <h4>একটি স্বেচ্ছাসেবী সামাজিক সংগঠন। </h4>
+          <p>Red Rose Mission
+            একটি স্বেচ্ছাসেবী সামাজিক সংগঠন।
+            সমাজ সেবার মহৎ উদ্দেশ্য সামনে রেখে মানব সেবার নিমিত্তে আমাদের এই ক্ষুদ্র প্রয়াস। এটি কেবল একটি সংগঠন নয়, একটি পরিবারও বটে! আর তাই মহৎ উদ্দেশ্যগুলো বাস্তবায়নে আপনাদের সকলের সহযোগিতা একান্তভাবে কাম্য।<span id="dots">...</span><span id="more"> আশা করি সবাই নিজ দায়িত্বে সংগঠনকে কে অনেক দূর সফলতার সাথে এগিয়ে নিয়ে যেতে সর্বদা পাশেই থাকবেন।</span></p><button onclick="myFunction()" id="myBtn" class="read-more-btn">Read more</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script>
+    function myFunction() {
+      var dots = document.getElementById("dots");
+      var moreText = document.getElementById("more");
+      var btnText = document.getElementById("myBtn");
+    
+      if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more"; 
+        moreText.style.display = "none";
+      } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less"; 
+        moreText.style.display = "inline";
+      }
+    }
+    </script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
